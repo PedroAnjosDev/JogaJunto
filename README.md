@@ -22,16 +22,22 @@ O sistema permite cadastrar equipes, registrar partidas e organizar competiçõe
 
 O projeto está organizado em pacotes:
 
-* `entidade`
+* `model`
 
   * Classe `Equipe`
   * Classe `Partida`
   * Classe `Competicao`
 
-* `main`
+* `view`
 
-  * Classe principal para execução
-
+  * Classe `App`
+    
+* `DAO`
+  * Classe `equipeDAO`
+  * Classe `equipeDAOImpl`
+    
+* Database`
+  * Classe `DBConnection` 
 ---
 
 ## Tecnologias Utilizadas
